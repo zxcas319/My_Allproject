@@ -1,10 +1,13 @@
-##작은수 제거하기
-def rm_small(mylist):
+## findKim 함수(메소드)는 String형 배열 seoul을 매개변수로 받습니다.
+
+##seoul의 element중 Kim의 위치 x를 찾아, 김서방은 x에 있다는 String을 반환하세요.
+##seoul에 Kim은 오직 한 번만 나타나며 잘못된 값이 입력되는 경우는 없습니
+def findKim(seoul):
+    kimIdx = 0
     # 함수를 완성하세요
-    mylist.remove(min(mylist))
-    return mylist
+    kimIdx=seoul.index("Kim")
+    return "김서방은 {}에 있다".format(kimIdx)
 
 
-# 아래는 테스트로 출력해 보기 위한 코드입니다.
-my_list = [4, 3, 2, 1]
-print("결과 {} ".format(rm_small(my_list)))
+# 실행을 위한 테스트코드입니다.
+print(findKim(["Queen", "Tod", "Kim"]))

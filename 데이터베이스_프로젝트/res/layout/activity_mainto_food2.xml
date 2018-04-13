@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_to_food2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.samsung.anew.MaintoFood2">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/f7" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/f8" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/f9" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="220dp"
+        app:srcCompat="@drawable/f10" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="220dp"
+        app:srcCompat="@drawable/f11" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="220dp"
+        app:srcCompat="@drawable/f12" />
+
+    <Button
+        android:id="@+id/foodchoosebutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/foodagobutton1"
+        android:layout_alignBottom="@+id/foodagobutton1"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="46dp"
+        android:layout_toLeftOf="@+id/foodagobutton1"
+        android:layout_toStartOf="@+id/foodagobutton1"
+        android:layout_weight="1"
+        android:onClick="foodButtonClicked2"
+        android:text="select"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/foodagobutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="46dp"
+        android:onClick="foodagoButtonClicked1"
+        android:text="pre plot"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/foodmenubutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="46dp"
+        android:onClick="foodmenuButtonClicked2"
+        android:text="menu"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:checkedButton="@+id/radioButton7"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="125dp"
+            android:scaleType="fitCenter"
+            android:text="생과일쥬스"
+            android:textColor="#ff0000ff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="125dp"
+            android:scaleType="fitCenter"
+            android:text="스테이크"
+            android:textColor="#ff0000ff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="125dp"
+            android:scaleType="fitCenter"
+            android:text="단호박푸딩"
+            android:textColor="#ff0000ff"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="-320dp"
+            android:layout_marginTop="280dp"
+            android:scaleType="fitCenter"
+            android:text="짜장면"
+            android:textColor="#ff0000ff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="280dp"
+            android:scaleType="fitCenter"
+            android:text="탕수육"
+            android:textColor="#ff0000ff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="280dp"
+            android:scaleType="fitCenter"
+            android:text="햄버거"
+            android:textColor="#ff0000ff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="139dp"
+        android:text="2PAGE"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>
